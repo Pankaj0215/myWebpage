@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+#Top{
+    display: flex;
+    height:70px;
+    background-color:black;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 3rem;
+}
+#Logo img{
+    height:45px;
+}
+#menu ul{
+      display:flex;
+}
+#menu ul li a{
+    color:white; 
+    text-decoration: none;
+    padding: 0 15px;
+}
+#Banner{
+      background: url("Image.jpg");
+      height:270px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+}
+#para p{
+    padding:2rem; 
+    text-align: center;
+    font-size: 21px;
+    color:#666;
+}
+content img{
+    width:30%;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    border: 0.5px solid #666;
+    
+}
+.content div{
+    width:50%;
+    font-size: 21px;   
+}
+footer{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 2rem 3rem;
+}
+#Social ul {
+    list-style-type: none;
+    display: flex;
+   
+}
+#Social ul li i{
+    border:1px solid ;
+    margin:0 0.25rem;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border-radius: 15%;
+}
+input[type="Submit"]{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
